@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+    }
+  footer{
+      color: white;
+      text-align: center;
+  }
+  canvas{
+      background-color: none;
+      border-style: groove;
+  }
+  h1{
+      color: white;
+  }

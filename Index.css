@@ -1,0 +1,30 @@
+body {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/10/5e/a8/105ea8e37fa71d227d385db89f8c7dbf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    }
+    h1{
+       margin-top: 1.5em;
+       text-align: center;
+       font-size: 7em;
+       font-family:fantasy;
+    }
+   h2{
+       text-align: center;
+       font-size: 5em;
+       font-family:fantasy;
+    }
+    #link1{
+       text-decoration: none;
+       color:white;
+    }
+    #link2{
+        text-decoration: none;
+        color:white;
+    }
+    footer{
+        text-align: center;
+        font-family: fantasy;
+        color: white;
+    }
