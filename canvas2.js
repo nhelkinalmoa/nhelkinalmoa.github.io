@@ -6,18 +6,17 @@ function init() {
     canvas = document.getElementById("my-canvas");
     ctx = canvas.getContext("2d");
     drawWindow();
-    drawBody();
+    // drawBody();
 }
 function drawWindow() {
-    ctx.strokeStyle = "blue";
     ctx.beginPath();
+    ctx.strokeStyle = "blue";
     ctx.lineWidth = 5;
-    ctx.moveTo(68,114);
-    ctx.lineTo(50,50);
-    ctx.lineTo(50,100);
-    ctx.lineTo(50,150);
-    ctx.stoke();
-    ctx.fill(0,0,50,50);
+    ctx.moveTo(10,173);
+    ctx.lineTo(492,173);
+    ctx.lineTo(400,500);
+    ctx.lineTo(0,0);
+    ctx.stroke();
 }
 function drawBody() {
     ctx.fillStyle="white";
